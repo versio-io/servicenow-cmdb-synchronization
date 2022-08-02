@@ -36,7 +36,7 @@ To correctly execute the script you have to set some parameters into the script 
 
 ## Mapping
 
-To define your own mapping you need to create an object which contains entries with the ServiceNow attribute name as key and an array containing the attribute's path in the versio.io object.
+To define your own mapping you need to create an object which contains entries with the ServiceNow attribute name as key and an array containing the attribute's path in the versio.io object as value.
 
 #### Example
 We want to import `name`, `serial_number`, `os` and `os_version` into ServiceNow CMDB from the following Versio.io object:  
