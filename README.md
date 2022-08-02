@@ -15,7 +15,7 @@ If the script is not working because of some missing parameters take a look to t
 
 ## Parameters
 
-To correctly execute the script you have to set some parameters into the script file.
+To correctly execute the script you have to set some parameters into the script file.  
 Open the file `servicenow-cmdb-synchonization.js` with your favourite text editor and set them.
 
 - **SERVICE_NOW_URL**
