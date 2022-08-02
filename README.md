@@ -1,25 +1,25 @@
-# Synchonization Versio.io to ServiceNow CMDB 
+# Synchronization Versio.io to ServiceNow CMDB 
 
-This script helps ServiceNow users to transfer the high quality instances of Versio.io Assets & Configuration Inventory into ServiceNow CMDB.
+This script helps ServiceNow users to transfer the high-quality instances of Versio.io Assets & Configuration Inventory into ServiceNow CMDB.
 
-![Synchonization Versio.io to ServiceNow CMDB](img/versio.io-to-servicenow-synchronization.svg)
+![Synchronization Versio.io to ServiceNow CMDB](img/versio.io-to-servicenow-synchronization.svg)
 
 ## Requirements
 
 - Node.js version 14 or above
-- 'axios' Node.j package
-- Linux cron to run synchronization at a custome given date and time 
+- 'axios' Node.js package
+- Linux cron to run synchronization at a custom specific date and time 
 
 ## How to use it
 
 After cloning the repo, open the folder in the terminal and execute the command `npm i` to install the required package.  
 Now you can start the script through the command `node servicenow-cmdb-synchonization.js`.  
-If the script is not working because of some missing parameters take a look to the next section.
+If the script is not working because of some missing parameters, take a look to the next section.
 
 ## Parameters
 
-To correctly execute the script you have to set some parameters into the script file.  
-Open the file `servicenow-cmdb-synchonization.js` with your favourite text editor and set them.
+To correctly execute the script, you have to set some parameters into the script file.  
+Open the file `servicenow-cmdb-synchonization.js` with your favorite text editor and set them.
 
 - **SERVICE_NOW_URL**
   - URL of your own ServiceNow instance (eg. `"https://dev000000.service-now.com"`).
@@ -42,7 +42,7 @@ Open the file `servicenow-cmdb-synchonization.js` with your favourite text edito
 
 ## Mapping
 
-To define your own mapping you need to create an object which contains entries with the ServiceNow attribute name as key and an array containing the attribute's path in the versio.io object as value.
+To define your specific mapping, you need to create an object which contains entries with the ServiceNow attribute name as key and an array containing the attribute's path in the versio.io object as value.
 
 #### Example
 We want to import `name`, `serial_number`, `os` and `os_version` into ServiceNow CMDB from the following Versio.io object:  
@@ -70,7 +70,7 @@ We want to import `name`, `serial_number`, `os` and `os_version` into ServiceNow
 }
 ```
 
-To achieve the result we need to define a mapping object like this:  
+To achieve the result, we need to define a mapping object like this:  
 ```json
 {
     "name": ["displayName"],
