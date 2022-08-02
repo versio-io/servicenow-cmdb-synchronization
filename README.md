@@ -2,6 +2,8 @@
 
 This script helps ServiceNow users to transfer the high quality instances of Versio.io Assets & Configuration Inventory into ServiceNow CMDB.
 
+![Synchonization Versio.io to ServiceNow CMDB](img/versio.io-to-servicenow-synchronization.svg)
+
 ## Requirements
 
 - Node.js version 14 or above
