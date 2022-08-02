@@ -1,5 +1,5 @@
 // SERVICE NOW CONFIGURATION
-const SERVICE_NOW_URL = "https://dev000000.service-now.com"; // URL of your own ServiceNow instance (eg. "https://dev000000.service-now.com").
+const SERVICE_NOW_URL = ""; // URL of your own ServiceNow instance (eg. "https://dev000000.service-now.com").
 const SERVICE_NOW_USERNAME = ""; // the username to access your own ServiceNow instance.
 const SERVICE_NOW_PASSWORD = ""; // the password to access your own ServiceNow instance.
 const SERVICE_NOW_TABLE = "cmdb_ci_server"; // the name of the table where you want to import the data (eg. "cmdb_ci_server" for Servers table and "cmdb_ci_service" for Services). You can find the right table name using the REST API Explorer (look for "Table API" in the "now" namespace) in your ServiceNow instance.
