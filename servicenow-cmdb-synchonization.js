@@ -1,3 +1,8 @@
+/*
+* Copyright (C) QMETHODS - Business & IT Consulting GmbH - All Rights Reserved
+* The unauthorized use and reproduction of this file is strictly allowed :-)
+*/
+
 // SERVICE NOW CONFIGURATION
 const SERVICE_NOW_URL = ""; // URL of your own ServiceNow instance (eg. "https://dev000000.service-now.com").
 const SERVICE_NOW_USERNAME = ""; // the username to access your own ServiceNow instance.
