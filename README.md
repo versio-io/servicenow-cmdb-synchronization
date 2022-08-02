@@ -10,11 +10,14 @@ This script helps you to bring your Versio.io assets to ServiceNow CMDB.
 ## How to use it
 
 After cloning the repo, open the folder in the terminal and execute the command `npm i` to install the required package.  
-Now you can start the script through the command `node servicenow-cmdb-synchonization.js`.
+Now you can start the script through the command `node servicenow-cmdb-synchonization.js`.  
+If the script is not working because of some missing parameters take a look to the next section.
 
 ## Parameters
 
-To correctly execute the script you have to set some parameters into the script file:
+To correctly execute the script you have to set some parameters into the script file.
+Open the file `servicenow-cmdb-synchonization.js` with your favourite text editor and set them.
+
 - **SERVICE_NOW_URL**
   - URL of your own ServiceNow instance (eg. `"https://dev000000.service-now.com"`).
 - **SERVICE_NOW_USERNAME**
