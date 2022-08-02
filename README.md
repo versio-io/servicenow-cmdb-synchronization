@@ -1,11 +1,12 @@
-# servicenow-cmdb-synchonization
+# Synchonization Versio.io to ServiceNow CMDB 
 
-This script helps you to bring your Versio.io assets to ServiceNow CMDB.
+This script helps ServiceNow users to transfer the high quality instances of Versio.io Assets & Configuration Inventory into ServiceNow CMDB.
 
 ## Requirements
 
-- Node.js 14 or above
-- axios package
+- Node.js version 14 or above
+- 'axios' Node.j package
+- Linux cron to run synchronization at a custome given date and time 
 
 ## How to use it
 
