@@ -32,7 +32,7 @@ Open the file `servicenow-cmdb-synchonization.js` with your favorite text editor
 - **VERSIO_URL**
   - URL of your Versio.io instance. The default one is `"https://live.versio.io"` and you should change it only if you have an on-premise Versio.io instance.
 - **VERSIO_ENVIRONMENT**
-  - The 10-charachters ID of your Versio.io environment. You can find it in the first line of the Dashboard tab.
+  - The 10-charachters ID of your Versio.io environment. You can find it in the first line of the Dashboard tab between the brackets.
 - **VERSIO_APITOKEN**
   - To export your data from Versio.io you need to create an API token. Go to Environment settings -> Access management -> API tokens and create a new token with "CMDB viewer" rights.
 - **VERSIO_ENTITY**
