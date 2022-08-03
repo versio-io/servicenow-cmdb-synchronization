@@ -17,7 +17,7 @@ const VERSIO_APITOKEN = ""; // to export your data from Versio.io you need to cr
 const VERSIO_ENTITY = "host"; //the name of the instances group you want to export to ServiceNow (eg. "host" for Hosts and "service" for Services). You can find the right entity name using the "Instances viewer" tab and selecting the single group of entity you want to export. The string after "ens=" in the page's URL is the attribute you need.
 
 // MAPPING CONFIGURATION
-const MAPPING = "linux-host"; // use "linux-host", "windows-host" or "service" for the default mapping, otherwise you can define your own mapping here or you can extend the switch in the setMapping function (line 29).
+const MAPPING = "linux-host"; // use "linux-host", "windows-host" or "service" for the default mapping, otherwise you can define your own mapping here or you can extend the switch in the setMapping function (line 34).
 
 // --------------------
 // -----  SCRIPT  -----
@@ -197,39 +197,39 @@ let startTime = Date.now();
 let error = false;
 if (!SERVICE_NOW_URL) {
     error = true;
-    console.error("SERVICE_NOW_URL (line 2) attribute missing.");
+    console.error("SERVICE_NOW_URL (line 7) attribute missing.");
 }
 if (!SERVICE_NOW_USERNAME) {
     error = true;
-    console.error("SERVICE_NOW_USERNAME (line 3) attribute missing.");
+    console.error("SERVICE_NOW_USERNAME (line 8) attribute missing.");
 }
 if (!SERVICE_NOW_PASSWORD) {
     error = true;
-    console.error("SERVICE_NOW_PASSWORD (line 4) attribute missing.");
+    console.error("SERVICE_NOW_PASSWORD (line 9) attribute missing.");
 }
 if (!SERVICE_NOW_TABLE) {
     error = true;
-    console.error("SERVICE_NOW_TABLE (line 5) attribute missing.");
+    console.error("SERVICE_NOW_TABLE (line 10) attribute missing.");
 }
 if (!VERSIO_URL) {
     error = true;
-    console.error("VERSIO_URL (line 9) attribute missing.");
+    console.error("VERSIO_URL (line 14) attribute missing.");
 }
 if (!VERSIO_ENVIRONMENT) {
     error = true;
-    console.error("VERSIO_ENVIRONMENT (line 10) attribute missing.");
+    console.error("VERSIO_ENVIRONMENT (line 15) attribute missing.");
 }
 if (!VERSIO_APITOKEN) {
     error = true;
-    console.error("VERSIO_APITOKEN (line 11) attribute missing.");
+    console.error("VERSIO_APITOKEN (line 16) attribute missing.");
 }
 if (!VERSIO_ENTITY) {
     error = true;
-    console.error("VERSIO_ENTITY (line 12) attribute missing.");
+    console.error("VERSIO_ENTITY (line 17) attribute missing.");
 }
 if (!MAPPING) {
     error = true;
-    console.error("MAPPING (line 15) attribute missing.");
+    console.error("MAPPING (line 20) attribute missing.");
 }
 //#endregion
 
