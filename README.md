@@ -38,7 +38,7 @@ Open the file `servicenow-cmdb-synchronization.js` with your favorite text edito
 - **VERSIO_ENTITY**
   - The name of the instances group you want to export to ServiceNow (eg. `"host"` for Hosts and `"service"` for Services). You can find the right entity name using the "Instances viewer" tab and selecting the single group of entity you want to export. The string after `"ens="` in the page's URL is the attribute you need.
 - **MAPPING**
-  - Use `"linux-host"`, `"windows-host"` or `"service"` for the default mapping, otherwise you can define your own mapping in this parameter or you can extend the switch in the setMapping function at line 29.
+  - Use `"linux-host"`, `"windows-host"` or `"service"` for the default mapping, otherwise you can define your own mapping in this parameter or you can extend the switch in the setMapping function at line 34.
 
 ## Mapping
 
